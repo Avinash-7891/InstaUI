@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+.instacontainer {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.mainbar {
+  width: 75%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  background-color: #f6f6f6;
+  border-radius: 50px;
+}
+.nav {
+  position: fixed;
+  width: 75%;
+  background-color: #f6f6f6;
+  border-radius: 50px;
+}
+.top-nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  padding-left: 10px;
+}
+.search {
+  height: 100%;
+  width: 50%;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+}
+.searchbar {
+  background-color: #ffffff;
+  width: 70%;
+  padding: 10px 10px;
+  border-radius: 50px;
+  color: gray;
+}
+.search input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 90%;
+}
+.connect {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  color: #000;
+}
+.bell {
+  font-size: 30px;
+  font-weight: small;
+}
+.msg {
+  font-size: 25px;
+  font-weight: small;
+}
+.btn {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  margin-right: 15px;
+  color: #fff;
+  background: linear-gradient(#ff7507, #f2086d);
+  font-weight: 500;
+}
+.sidebar {
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  gap: 20px;
+  background-color: #ffffff;
+  color: #2e2e2e;
+  padding: 15px;
+}
+.story-nav {
+  width: 100%;
+  height: auto;
+  font-size: 24px;
+}
+.story-nav p {
+  padding: 10px 15px;
+}
+.stories-container {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+  scrollbar-width: none;
+  padding: 15px;
+  margin-left: 10px;
+}
+.storycontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+.story {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 2px solid #93476d;
+}
+.story img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+  object-position: center;
+  padding: 2px;
+}
+.logo {
+  height: 100px;
+}
+.logo img {
+  height: 100px;
+}
+.profile {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+}
+#p1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+#p2 {
+  font-size: 12px;
+  font-weight: 300;
+}
+.profile-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.profile-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.connection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.info p:first-child {
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #000;
+}
+.highlight p {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 15px 0;
+  color: #000;
+}
+.side-highlights {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.side-highlights div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.story-img {
+  height: 60px;
+  width: 60px;
+  background-color: #ededed;
+  border-radius: 50%;
+}
+.story-img p {
+  line-height: 30px;
+}
+.story-img img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  opacity: 1;
+  filter: brightness(0.7);
+}
+
+.option {
+  font-size: 20px;
+}
+.sideMove {
+  padding-bottom: 20px;
+}
+.logout {
+  padding-top: 27px;
+}
+.postbar {
+  position: fixed;
+  width: 75%;
+  top: 30%;
+}
+.feed {
+  font-size: 24px;
+  margin: 20px 20px;
+}
+.social-post {
+  height: 500px;
+  width: 50%;
+  margin: auto;
+  overflow: scroll;
+}
+.social-post::-webkit-scrollbar {
+  display: none;
+}
+.post-icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.post-icon img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.post-icon p {
+  font-size: 18px;
+}
+.post-main {
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.post-main img {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.likes i {
+  margin: 5px;
+  font-size: 25px;
+}
+.caption {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 784px) {
+  .mainbar {
+    display: hidden;
+  }
+}
