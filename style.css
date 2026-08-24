@@ -103,6 +103,7 @@ body {
   display: flex;
   flex-direction: column;
   /* justify-content: space-around; */
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.08);
   gap: 25px;
   background-color: #ffffff;
   color: #2e2e2e;
