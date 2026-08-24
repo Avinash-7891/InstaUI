@@ -96,6 +96,12 @@ body {
   color: #fff;
   background: linear-gradient(#ff7507, #f2086d);
   font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
 }
 .sidebar {
   width: 25%;
