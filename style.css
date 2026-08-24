@@ -188,9 +188,14 @@ body {
   text-align: center;
 }
 .info p:first-child {
-  font-weight: 500;
-  margin-bottom: 10px;
+  font-weight: 600;
+  margin-bottom: 8px;
   color: #000;
+}
+
+.info p:last-child {
+  color: #777;
+  font-size: 13px;
 }
 .highlight p {
   font-weight: 500;
