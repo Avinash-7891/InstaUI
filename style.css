@@ -172,6 +172,7 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 50%;
+  border: 3px solid #f2086d;
 }
 .profile-img img {
   height: 100%;
