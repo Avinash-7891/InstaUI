@@ -326,20 +326,29 @@ body {
   .sidebar {
     display: none;
   }
-
   .mainbar {
     width: 100%;
     right: 0;
   }
-
   .nav {
     width: 100%;
   }
-
+  .search {
+    width: 55%;
+  }
+  .searchbar {
+    width: 100%;
+  }
+  .connect {
+    width: 45%;
+  }
+  .btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
   .postbar {
     width: 100%;
   }
-
   .social-post {
     width: 90%;
   }
