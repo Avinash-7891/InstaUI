@@ -309,6 +309,12 @@ body {
 .likes i {
   margin: 5px;
   font-size: 25px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.likes i:hover {
+  transform: scale(1.15);
 }
 .caption {
   padding-left: 10px;
